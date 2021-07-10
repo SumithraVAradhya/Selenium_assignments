@@ -12,7 +12,6 @@ import org.openqa.selenium.support.ui.Select;
 
 
 public class remote_execution {
-    @Test
     public void test1() throws MalformedURLException {
         DesiredCapabilities cap = new DesiredCapabilities();
         cap.setBrowserName("chrome");
